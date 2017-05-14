@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+    <Button
+        android:layout_margin="16dp"
+        android:id="@+id/scan_barcode_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START SCAN"
+
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/result_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Scan Result will be here"
+        android:textSize="22sp"
+        android:freezesText="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+
+</LinearLayout>
